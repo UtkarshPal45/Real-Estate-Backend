@@ -21,6 +21,6 @@ app.use("/api/posts",postRouter)
 app.use("/api/chats",chatRouter)
 app.use("/api/messages",messageRouter)
 
-app.listen(8800,()=>{
+app.listen(4000,()=>{
     console.log("server is running");
 })
