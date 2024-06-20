@@ -49,6 +49,7 @@ export const login = async (req,res)=>{
         res
         .cookie("token",token,{
             secure: true,
+            httpOnly: true,
             maxAge: age, 
             path: "/",
             domain: "https://real-estate-frontend-nine.vercel.app/",
